@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(228, 228, 228);
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.name {
+  font-weight: bold;
+}
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 55px;
+  border: 3px black;
+  border-style: solid dashed solid dashed;
+  animation: loader linear 1500ms infinite;
+}
+
+@keyframes loader {
+  100% {
+    transform: rotate(360deg);
+  }
+}
