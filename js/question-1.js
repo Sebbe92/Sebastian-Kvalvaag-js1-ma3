@@ -1,3 +1,3 @@
 const getRemainder = (a, b) => a % b;
 
-console.log(getRemainder(2, 9));
+console.log(getRemainder(15, 3));
